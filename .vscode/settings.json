@@ -1,0 +1,6 @@
+{
+  "jest.pathToJest": "npm test --",
+  "jest.jestCommandLine": "npm test --",
+  "jest.enableCodeLens": true,
+  "jest.showTerminalOnLaunch": true
+}
