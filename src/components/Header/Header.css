@@ -1,3 +1,27 @@
 .header {
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    /*deixando o header no topo da página*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    z-index: 10;
+}
+
+.header__logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.header__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
 }

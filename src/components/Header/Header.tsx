@@ -2,8 +2,9 @@ import './Header.css'
 
 export const Header  = () => {
   return(
-    <div className='header'>
-      Dio Bank
-    </div>
+    <header className='header'>
+      <img className='header__logo' src='/logo_diobank.png' alt='Dio Bank logo' />
+      <span className='header__title'>Dio Bank</span>
+    </header>
   )
 }
